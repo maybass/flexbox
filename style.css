@@ -1,0 +1,89 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size : 62.5%;
+	width: 100%;
+	
+}
+
+body {
+	max-width: 80%;
+	margin: auto;
+	height: auto;
+	border: 2px solid;
+}
+
+img {
+	width: 100%;
+	height: auto;
+   /* display: block;
+	margin: auto;*/
+}
+
+
+
+ul {
+	padding:0;
+	margin:0;
+	display: flex;
+	justify-content: space-between;
+	width: 80%;
+	margin: auto;
+	border: 2px solid;
+	
+}
+
+ul li {
+	list-style: none;
+	text-align: center;
+	width: 100%;
+	margin: auto;
+	border: 2px solid;
+	
+}
+
+ul li a {
+	text-decoration: none;
+}
+
+header h1 {
+	
+	margin: 50px auto;
+	text-align: center;
+	border: 2px solid;
+}
+
+
+#sobremi,
+#portfolio {
+	display:flex;
+	justify-content: space-between;
+}
+
+.experiencia {
+	width: 50%;
+	border: 2px solid;
+}
+
+.trabajos {
+	width: 25%;
+	border: 2px solid;
+	
+
+}
+
+
+
+.experiencia a,
+.trabajos a{
+	float: right;
+}
+
+#footer {
+	text-align: center;
+}
+
